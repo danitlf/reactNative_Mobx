@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { View, Text } from "react-native";
 import { observer, inject } from "mobx-react"; 
+import MapView from 'react-native-maps';
 
 @inject("user")
 @observer
